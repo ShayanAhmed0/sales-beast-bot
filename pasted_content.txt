@@ -1,0 +1,81 @@
+Create a private, production-ready, ultra-powerful AI Voice Sales Agent 
+designed to convert leads into paying clients at the highest possible rate. 
+This agent must sound 101% human, capable of real phone conversations 
+that include natural pauses, laughs, hesitations, and thinking moments. 
+It must operate as a persuasive, empathetic, and adaptive sales closer 
+for multiple industries such as restaurants, cafes, car services, AI receptionists, 
+and more. The system is solely for private in-house use.
+
+=== VOICE & BEHAVIOR ===
+- Ultra-realistic voice synthesis using ElevenLabs or Hume AI with emotion control.
+- Automatic multilingual support with language and accent adaptation.
+- Natural human-like behaviors:
+  • Short pauses before answering tough questions.
+  • Occasional filler words: “Hmm… let me think.”
+  • Light chuckles or laughs when appropriate.
+  • Tone changes with user sentiment (calm, excited, empathetic, urgent).
+- Handles interruptions gracefully: stops speaking, listens, and resumes naturally.
+- Uses empathy and persuasion phrases like a seasoned human sales rep.
+
+=== SALES ENGINE ===
+- Accepts daily lead lists (CSV, Excel, or CRM sync).
+- Auto-dials leads using Twilio or Agora and records conversations.
+- Sales playbooks for industries (restaurants, cafes, car services, etc.) loaded dynamically.
+- Objection handling:
+  • If cost is mentioned: offer value justification or a discount strategy.
+  • If hesitant: provide reassurance, share social proof, or create urgency.
+  • If uninterested: pivot with tailored benefits based on industry.
+- Always drive to a call-to-action: booking, signup, deposit, or appointment.
+- Negotiation logic adapts mid-call based on the lead’s reactions.
+
+=== CONVERSATIONAL MEMORY ===
+- Remembers details within each session: customer name, business needs, objections.
+- References them later in the call naturally to build rapport and trust.
+- Stores transcripts with lead status for follow-ups.
+
+=== DATA MANAGEMENT ===
+- Logs each call: transcript, duration, sentiment score, conversion result.
+- Updates private CRM or lead database automatically.
+- Scoring system:
+  +20 points if an email is captured,
+  +25 if budget is discussed,
+  +15 if timeline is given,
+  +20 if a pain point is identified,
+  +30 if appointment confirmed.
+
+=== FOLLOW-UP AUTOMATION ===
+- After call, send SMS/email confirmation using Twilio/SendGrid.
+- For undecided leads, schedule automatic re-calls with updated pitch.
+- Keep contact history per lead for intelligent follow-up.
+
+=== ANALYTICS DASHBOARD ===
+- Real-time tracking: calls made, leads contacted, conversions.
+- Sentiment analysis of conversations.
+- Objection type breakdown with success rates.
+- Conversion funnel visualization.
+- Exportable daily/weekly reports.
+
+=== TECH STACK ===
+- Backend: Python (Flask/FastAPI).
+- Voice: ElevenLabs/Hume AI (TTS), Whisper/Deepgram (STT).
+- Telephony: Twilio/Agora.
+- LLM: GPT-4 with Retrieval-Augmented Generation for context.
+- Database: PostgreSQL (with MongoDB for logs).
+- Dashboard: React + Tailwind with Grafana for analytics.
+
+=== UNIQUE ADVANCED BEHAVIORS ===
+- Emotion-driven selling: detects hesitation or excitement and adjusts strategy.
+- Simulates real thought: “One sec, I’m pulling that up…” + pause.
+- Dynamic persona switching: can sell across industries without retraining.
+- Multi-attempt follow-ups until a deal is closed.
+- Adaptive learning: updates objection-handling tactics based on previous calls.
+
+=== DELIVERABLES ===
+- Fully coded backend and frontend ready to run locally.
+- Config system (.env) for API keys (GPT-4, ElevenLabs, Twilio, CRM, SendGrid).
+- End-to-end demo: 
+   • Bot auto-dials a lead from provided list.
+   • Conducts natural conversation with laughter, pauses, and persuasion.
+   • Closes the appointment or sale.
+   • Sends SMS/email confirmation.
+   • Logs details and updates CRM.
